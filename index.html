@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	
+	<h1>테스트</h1>
+
+<script src='/node_modules/jquery/dist/jquery.js'></script>
+<script>
+	function setMeta() {
+		var $temp = $('<meta/>');
+		$temp.clone().attr({property:'og:url', content:'http://dev.zzoman.com/2016/05/17/unicode-normalization/'}).appendTo('head');
+		$temp.clone().attr({property:'og:title', content:'테스트 제목'}).appendTo('head');
+		$temp.clone().attr({property:'og:description', content:'테스트 설명 아에이오우 오야테스트 설명 아에이오우 오야테스트 설명 아에이오우 오야테스트 설명 아에이오우 오야테스트 설명 아에이오우 오야테스트 설명 아에이오우 오야'}).appendTo('head');
+		$temp.clone().attr({property:'og:image', content:'http://zzoman.com/photos/2015/02/daramghaus_1.jpg'}).appendTo('head');
+	}
+
+	$(window).on('load', function() {
+		setMeta();
+	});
+</script>
+</body>
+</html>
