@@ -1,0 +1,114 @@
+Bavarian_Wheat_Beer-x = 0
+Bavarian_Wheat_Beer-y = 0
+Bavarian_Wheat_Beer-width = 528px
+Bavarian_Wheat_Beer-height = 528px
+Bavarian_Wheat_Beer = Bavarian_Wheat_Beer-x Bavarian_Wheat_Beer-y Bavarian_Wheat_Beer-width Bavarian_Wheat_Beer-height
+Apple-x = -528px
+Apple-y = 0
+Apple-width = 528px
+Apple-height = 528px
+Apple = Apple-x Apple-y Apple-width Apple-height
+Avocado-x = 0
+Avocado-y = -528px
+Avocado-width = 528px
+Avocado-height = 528px
+Avocado = Avocado-x Avocado-y Avocado-width Avocado-height
+Baby_Bottle-x = -528px
+Baby_Bottle-y = -528px
+Baby_Bottle-width = 528px
+Baby_Bottle-height = 528px
+Baby_Bottle = Baby_Bottle-x Baby_Bottle-y Baby_Bottle-width Baby_Bottle-height
+Bacon-x = -1056px
+Bacon-y = 0
+Bacon-width = 528px
+Bacon-height = 528px
+Bacon = Bacon-x Bacon-y Bacon-width Bacon-height
+Banana_Split-x = -1056px
+Banana_Split-y = -528px
+Banana_Split-width = 528px
+Banana_Split-height = 528px
+Banana_Split = Banana_Split-x Banana_Split-y Banana_Split-width Banana_Split-height
+Banana-x = 0
+Banana-y = -1056px
+Banana-width = 528px
+Banana-height = 528px
+Banana = Banana-x Banana-y Banana-width Banana-height
+Bar-x = -528px
+Bar-y = -1056px
+Bar-width = 528px
+Bar-height = 528px
+Bar = Bar-x Bar-y Bar-width Bar-height
+Bavarian_Beer_Mug-x = -1056px
+Bavarian_Beer_Mug-y = -1056px
+Bavarian_Beer_Mug-width = 528px
+Bavarian_Beer_Mug-height = 528px
+Bavarian_Beer_Mug = Bavarian_Beer_Mug-x Bavarian_Beer_Mug-y Bavarian_Beer_Mug-width Bavarian_Beer_Mug-height
+Bavarian_Pretzel-x = -1584px
+Bavarian_Pretzel-y = 0
+Bavarian_Pretzel-width = 528px
+Bavarian_Pretzel-height = 528px
+Bavarian_Pretzel = Bavarian_Pretzel-x Bavarian_Pretzel-y Bavarian_Pretzel-width Bavarian_Pretzel-height
+Asparagus-x = -1584px
+Asparagus-y = -528px
+Asparagus-width = 528px
+Asparagus-height = 528px
+Asparagus = Asparagus-x Asparagus-y Asparagus-width Asparagus-height
+Beer_Bottle-x = -1584px
+Beer_Bottle-y = -1056px
+Beer_Bottle-width = 528px
+Beer_Bottle-height = 528px
+Beer_Bottle = Beer_Bottle-x Beer_Bottle-y Beer_Bottle-width Beer_Bottle-height
+Beer_Can-x = 0
+Beer_Can-y = -1584px
+Beer_Can-width = 528px
+Beer_Can-height = 528px
+Beer_Can = Beer_Can-x Beer_Can-y Beer_Can-width Beer_Can-height
+Beer-x = -528px
+Beer-y = -1584px
+Beer-width = 528px
+Beer-height = 528px
+Beer = Beer-x Beer-y Beer-width Beer-height
+Beet-x = -1056px
+Beet-y = -1584px
+Beet-width = 528px
+Beet-height = 528px
+Beet = Beet-x Beet-y Beet-width Beet-height
+Birthday_Cake-x = -1584px
+Birthday_Cake-y = -1584px
+Birthday_Cake-width = 528px
+Birthday_Cake-height = 528px
+Birthday_Cake = Birthday_Cake-x Birthday_Cake-y Birthday_Cake-width Birthday_Cake-height
+Bottle_of_Water-x = -2112px
+Bottle_of_Water-y = 0
+Bottle_of_Water-width = 528px
+Bottle_of_Water-height = 528px
+Bottle_of_Water = Bottle_of_Water-x Bottle_of_Water-y Bottle_of_Water-width Bottle_of_Water-height
+Bread-x = -2112px
+Bread-y = -528px
+Bread-width = 528px
+Bread-height = 528px
+Bread = Bread-x Bread-y Bread-width Bread-height
+Broccoli-x = -2112px
+Broccoli-y = -1056px
+Broccoli-width = 528px
+Broccoli-height = 528px
+Broccoli = Broccoli-x Broccoli-y Broccoli-width Broccoli-height
+Cabbage-x = -2112px
+Cabbage-y = -1584px
+Cabbage-width = 528px
+Cabbage-height = 528px
+Cabbage = Cabbage-x Cabbage-y Cabbage-width Cabbage-height
+
+sprite-image()
+    background-image url('./multiple.png')
+sprite-position($sprite)
+    background-position $sprite[0] $sprite[1]
+sprite-width($sprite)
+    width $sprite[2]
+sprite-height($sprite)
+    height $sprite[3]
+sprite($sprite)
+    sprite-image()
+    sprite-position($sprite)
+    sprite-width($sprite)
+    sprite-height($sprite)
